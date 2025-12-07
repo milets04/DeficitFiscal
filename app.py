@@ -10,8 +10,7 @@ st.title("Simulación Estocástica de Déficit Fiscal y Deuda Pública")
 
 
 # ----------- CARGA DE DATOS -----------
-df = pd.read_csv("data/datos2.csv")
-
+df = pd.read_csv("data/datos2.csv", encoding="latin-1")
 
 # ----------- BOTÓN DE SIMULACIÓN -----------
 if st.button("Ejecutar Simulación"):
