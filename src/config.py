@@ -16,18 +16,39 @@ PARAMETROS = {
     "umbral_crisis": 0.80,
 }
 
-
 # ------------------ COLUMNAS ESPERADAS EN EL CSV ------------------
+# Las claves deben coincidir con los encabezados exactos del CSV (acentos y espacios)
 COLUMNAS = {
     "anio": "Año",
-    "pib": "PIB",
-    "gasto": "Gasto público",
-    "recaudacion": "Recaudación tributaria",
-    "precio_gas": "Precio gas",
-    "precio_min": "Precio minerales",
-    "deuda_int": "Deuda interna",
-    "deuda_ext": "Deuda externa",
-    "tc": "Tipo de cambio (bs/usd)",
-    "remesas": "Remesas",
-    "riesgo": "Riesgo país"
+    "pib": "PIB (Millones USD)",
+    "crecimiento": "Crecimiento PIB (%)",
+    "gasto": "Gasto Público (Millones USD)",
+    "recaudacion": "Recaudación Tributaria (Millones USD)",
+
+    "precio_gas": "Precio Gas (USD por 1000 pies cúbicos)",
+    "cantidad_gas": "Exportación Gas (Millones pies cúbicos)",
+
+    "precio_min": "Precio Oro (USD/Ton)",
+    "cantidad_min": "Exp. Oro (Ton)",
+
+    "deuda_int": "Deuda Interna (Millones USD)",
+    "intereses_int": "Int. Deuda Interna (Millones USD)",
+
+    "deuda_ext": "Deuda Externa (Millones USD)",
+    "intereses_ext": "Int. Deuda Externa (Millones USD)",
+
+    "tasa_int": "Tasa Int. Internacional (%)",
+
+    "amort_int": "Amortización Deuda Interna (Millones USD)",
+    "amort_ext": "Amortización Deuda Externa (Millones USD)",
+
+    "tipo_cambio": "Tipo de Cambio (Bs/USD)",
+    "remesas": "Remesas (Millones USD)",
+    "subsidios": "Subsidios (Millones USD)",
+
+    "riesgo": "Riesgo País (Puntos Básicos)",
+
+    "exportaciones": "Exp. Totales (Millones USD)",
+    "importaciones": "Imp. Totales (Millones USD)"
 }
+
