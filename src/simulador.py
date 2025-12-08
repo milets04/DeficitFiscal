@@ -90,3 +90,4 @@ def ejecutar_simulacion(df, n_sim=200, years=[2024, 2025], vol_gas=0.15, vol_min
         if c in df_res.columns:
             df_res[c] = pd.to_numeric(df_res[c], errors="coerce").fillna(0.0)
     return df_res
+    
